@@ -1,0 +1,33 @@
+{
+  "name": "docusaurus-remark-diagrams",
+  "version": "1.0.0",
+  "description": "Docusaurus remark plugin that wraps some diagram drawing tools",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/merindorium/docusaurus-remark-diagrams.git"
+  },
+  "author": "Denis Chagin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/merindorium/docusaurus-remark-diagrams/issues"
+  },
+  "homepage": "https://github.com/merindorium/docusaurus-remark-diagrams#readme",
+  "dependencies": {
+    "unist-util-visit": "^3.1.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/parser": "^4.28.4",
+    "eslint": "^7.31.0",
+    "remark-parse": "^7.0.0",
+    "typescript": "^4.3.5",
+    "unified": "^8.3.2"
+  }
+}
